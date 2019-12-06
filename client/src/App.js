@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <h1>Women Soccer Players</h1>
-      <Display data={ data }/>
+      <Display data={ data } />
     </div>
   );
 }
