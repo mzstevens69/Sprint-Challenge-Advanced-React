@@ -5,6 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('../src/womenWC.jpeg');
+  height: 100%;
+  max-width: 100%;
+  position: absolute;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 code {
