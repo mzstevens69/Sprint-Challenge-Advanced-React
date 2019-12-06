@@ -22,7 +22,7 @@ const useStyles = makeStyles({
     transform: 'scale(0.8)',
   },
   title: {
-    fontSize: 14,
+    fontSize: 16,
   },
   pos: {
     marginBottom: 12,
@@ -37,8 +37,7 @@ export const PlayerCard = props => {
     return (
         <Card className={classes.card}>
             <CardContent>
-                <Typography className={classes.title} color="textSecondary" gutterBottom>
-                    
+                <Typography className={classes.title} color='secondary' gutterBottom>                   
                     {props.country}
                 </Typography>
                 <Typography variant="h5" component="h2">
@@ -49,7 +48,7 @@ export const PlayerCard = props => {
                 </Typography>
             </CardContent>
             <CardActions>
-                <Button size="small">Learn More</Button>
+                <Button color='white' size="small">Learn More</Button>
             </CardActions>           
         </Card>
     );
