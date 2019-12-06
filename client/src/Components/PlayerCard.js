@@ -10,7 +10,11 @@ const useStyles = makeStyles({
   card: {
     minWidth: 275,
     marginBottom: 12,
-    boxShadow: '2px 3px 12px rgba(0, 0, 0, 1)'
+    marginLeft: 12,
+    boxShadow: '2px 3px 12px rgba(0, 0, 0, 1)',
+    background: 'skyblue',
+    color: 'midnightBlue'
+    
   },
   bullet: {
     display: 'inline-block',
