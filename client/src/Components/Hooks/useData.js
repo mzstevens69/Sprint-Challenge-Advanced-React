@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import axios from axios;
+import axios from 'axios';
 
 //custom hook 
 
@@ -12,7 +12,7 @@ export const useData = () => {
             .get('http://localhost:5000/api/players')
             .then(response => {
                 setData(response.data);
-                console.log(response.data);
+                // console.log(response.data);
             })
             .catch(error => console.log('Your data must have been kicked out of the stadium', error))
     }, [])
